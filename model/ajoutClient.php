@@ -20,7 +20,7 @@ $sql = "INSERT INTO client(nom, prenom, telephone, adresse)
     
     if ( $req->rowCount()!=0) {
         $_SESSION['message']['text'] = "client ajouté avec succès";
-        $_SESSION['message']['type'] = "success";
+        $_SESSION['message']['type'] = "succès";
     }else {
         $_SESSION['message']['text'] = "Une erreur s'est produite lors de l'ajout du client";
         $_SESSION['message']['type'] = "danger";
