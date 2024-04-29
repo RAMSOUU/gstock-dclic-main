@@ -32,7 +32,7 @@ if (
         $_SESSION['message']['type'] = "success";
     } else {
         $_SESSION['message']['text'] = "Rien n'a été modifié";
-        $_SESSION['message']['type'] = "warning";
+        $_SESSION['message']['type'] = "Avertissement";
     }
 } else {
     $_SESSION['message']['text'] = "Une information obligatoire n'est pas renseignée";
